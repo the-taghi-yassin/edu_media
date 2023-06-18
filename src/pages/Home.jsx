@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+      <Navbar></Navbar>
+      <h1 className="text-3xl text-center font-bold underline"> Home</h1>
+    </>
   )
 }
 
